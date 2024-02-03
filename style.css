@@ -14,7 +14,7 @@ body {
 
 .weather-app {
     background-color: white;
-    max-width: 500px;
+    max-width: 600px;
     margin: 50px auto;
     padding: 30px;
     border-radius: 15px;
@@ -26,12 +26,13 @@ body {
 }
 
 input[type="text"] {
-    flex: 1;
+    flex: 1 ;
     padding: 10px;
     border: 1px solid #3498db;
     border-radius: 15px;
-    font-size: 0.85rem;
-    height: 3.5rem;
+    font-size: 10;
+    outline: none;
+    height: 2rem;
 }
 
 .search-btn {
